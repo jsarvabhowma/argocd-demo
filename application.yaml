@@ -13,7 +13,7 @@ spec:
   source:
     repoURL: https://github.com/Sarvabhowma1995/argocd-demo.git # Can point to either a Helm chart repo or a git repo.
     targetRevision: HEAD # For Helm, this refers to the chart version.
-    path: dev # This has no meaning for Helm charts pulled directly from a Helm repo instead of git.
+    path: develop # This has no meaning for Helm charts pulled directly from a Helm repo instead of git.
   # Destination cluster and namespace to deploy the application
   destination:
     server: https://kubernetes.default.svc # to which cluster we need to connect. Here you can mention external url for external kubernetes clusters.
